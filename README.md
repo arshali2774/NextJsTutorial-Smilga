@@ -4,8 +4,6 @@
 
 ## Routing in NextJS
 
----
-
 ### Making routes
 
 - Add a folder.

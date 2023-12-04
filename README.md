@@ -1,7 +1,5 @@
 # NOTES
 
----
-
 ## Routing in NextJS
 
 ### Making routes

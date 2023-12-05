@@ -3,12 +3,12 @@ import Link from 'next/link';
 const HomePage = () => {
   return (
     <div>
-      <h1 className='text-7xl'>Home Page</h1>
+      <h1 className='text-5xl mb-8 font-bold'>Next.js Tutorial</h1>
       <Link
-        href={'/about'}
-        className='text-2xl'
+        href={'/client'}
+        className='btn btn-accent'
       >
-        About Page
+        Get Started
       </Link>
     </div>
   );

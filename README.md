@@ -2,6 +2,20 @@
 
 ---
 
+## Components Of Next.js
+
+### Server Components
+
+- By default all components in _Next.js_ are server components.
+- For our own understanding we can explicitly define the top of our component as `use server`, to declare that this is a server component.
+
+### Client Components
+
+- To make a component as _client_ we can do the same: `use client`.
+- They are used to provide the user with immediate feedback by using states, effect and event listeners.
+- They are used to update the UI.
+- Use of browser API
+
 ## Routing in NextJS
 
 ### Making routes

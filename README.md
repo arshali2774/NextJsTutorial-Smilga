@@ -27,7 +27,13 @@
 ### Nested Routes
 
 - We can add folders inside folders to make nested routes.
+
   > **Example:** We can have a folder structure that looks like this `about/info/page.js`. Now we have an about page and an info page which is nested in about page. So to navigate to this info page we can do something like this, `localhost:3000/about/info`.
+
+  ### Dynamic Routes
+
+  - Using `[id]` folder name inside the folder where we want dynamic route.
+  - By using `params` prop in the dynamic route component we can add routing function.
 
 ### Navigation
 
